@@ -1,0 +1,11 @@
+.navbar {
+  @include pxRem(padding, 0 15);
+  .nav-link.active {
+    color: map-get($color, white);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .header-logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+}

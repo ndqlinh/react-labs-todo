@@ -1,0 +1,22 @@
+// == Breakpoints ===
+$breakpoints: (
+  small: 480px,
+  medium: 768px,
+  wide: 960px,
+  large: 1024px,
+  largest: 1280px
+);
+
+$color: (
+  primary: #61DAFB,
+  black: #000000,
+  gray: #808080,
+  white: #FFFFFF,
+  success: #00C851,
+  danger: #FF3547,
+  warning: #FFD700,
+  info: #00BFFF,
+  light: #E0E0E0,
+  dark: #212121,
+  text: #6D6D6D
+);

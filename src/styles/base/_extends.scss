@@ -1,0 +1,15 @@
+%clr {
+  &::before,
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
